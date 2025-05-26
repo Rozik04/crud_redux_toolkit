@@ -1,10 +1,9 @@
-
-
-export interface Electronics{
-    id? : number,
-    name : string,
-    price : number | null ,
-    description : string
-}
-
-
+export type Electronics = {
+  id: number;
+  fname: string;
+  lname: string;
+  age: number | null;
+  username: string;
+  password: string;
+  phoneNumber: string;
+};
